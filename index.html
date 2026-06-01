@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Varun V | Backend Developer & Systems Engineer</title>
+    <meta name="description" content="Portfolio of Varun V, a Software Engineer specializing in Java, Spring Boot, high-concurrency database systems, and raw systems architecture.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header>
+        <div class="logo">VARUN V.</div>
+        <nav>
+            <ul>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-glow"></div>
+        <div class="tagline">Backend & Systems Specialist</div>
+        <h1>Building High-Performance<br><span>Concurrency-Safe Systems</span></h1>
+        <p class="hero-subtitle">
+            Java Backend Engineer dedicated to building thread-safe engines, custom databases, and real-time transaction ledgers that handle scale efficiently.
+        </p>
+        <div class="cta-group">
+            <a href="#projects" class="btn btn-primary">Explore My Work</a>
+            <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="section-header">
+            <h2>Featured Projects</h2>
+            <p>Production-grade code demonstrating concurrency, caching, and low-level protocols.</p>
+        </div>
+        <div class="projects-grid">
+            
+            <!-- Project 1: Mini-Redis -->
+            <div class="glass-panel project-card">
+                <div class="project-icon">🚀</div>
+                <h3>Mini-Redis Engine</h3>
+                <p>
+                    A custom, thread-safe in-memory key-value database built from scratch. Designed to store records in RAM for nanosecond-level operations and handle concurrent clients safely via mutex synchronization.
+                </p>
+                <div class="project-tech">
+                    <span class="tech-tag">TCP Sockets</span>
+                    <span class="tech-tag">Mutex Locks</span>
+                    <span class="tech-tag">LRU Cache</span>
+                    <span class="tech-tag">AOF Persistence</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/VarunV2352004/mini-redis" target="_blank" class="project-link">View Repo →</a>
+                </div>
+            </div>
+
+            <!-- Project 2: High-Concurrency Ticket System -->
+            <div class="glass-panel project-card">
+                <div class="project-icon">🎫</div>
+                <h3>Concurrent Booking System</h3>
+                <p>
+                    A highly concurrent ticket reserving engine engineered to prevent double-booking. Protects databases from overselling under peak load using Pessimistic select-for-update locks and version control.
+                </p>
+                <div class="project-tech">
+                    <span class="tech-tag">Spring Boot</span>
+                    <span class="tech-tag">JPA / Postgres</span>
+                    <span class="tech-tag">WebSockets</span>
+                    <span class="tech-tag">HikariCP</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/VarunV2352004/high-concurrency-ticketsystem" target="_blank" class="project-link">View Repo →</a>
+                </div>
+            </div>
+
+            <!-- Project 3: WorkFlow Marketplace -->
+            <div class="glass-panel project-card">
+                <div class="project-icon">💼</div>
+                <h3>WorkFlow Platform</h3>
+                <p>
+                    A full-stack freelancer portal featuring custom multi-round price negotiations state machine, milestone-based escrow payments ledger, and Socket.IO chat rooms with typing indicators.
+                </p>
+                <div class="project-tech">
+                    <span class="tech-tag">Node.js / Express</span>
+                    <span class="tech-tag">Prisma / Postgres</span>
+                    <span class="tech-tag">React / Zustand</span>
+                    <span class="tech-tag">Socket.IO</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/VarunV2352004/workflow-freelancer-marketplace" target="_blank" class="project-link">View Repo →</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="section-header">
+            <h2>Technical Expertise</h2>
+            <p>Core programming tools, backend frameworks, and engineering methodologies.</p>
+        </div>
+        <div class="skills-container">
+            
+            <!-- Category 1: Languages & Core -->
+            <div class="glass-panel skills-category">
+                <h3>Languages & Core SDE</h3>
+                <div class="skills-list">
+                    <div class="skill-item"><span class="skill-name">Java (Core & Advanced)</span><span class="skill-badge">Expert</span></div>
+                    <div class="skill-item"><span class="skill-name">Data Structures</span><span class="skill-badge">Strong</span></div>
+                    <div class="skill-item"><span class="skill-name">Algorithms</span><span class="skill-badge">Strong</span></div>
+                    <div class="skill-item"><span class="skill-name">JavaScript</span><span class="skill-badge">Inter</span></div>
+                </div>
+            </div>
+
+            <!-- Category 2: Backend Frameworks -->
+            <div class="glass-panel skills-category">
+                <h3>Backend & Database</h3>
+                <div class="skills-list">
+                    <div class="skill-item"><span class="skill-name">Spring Boot</span><span class="skill-badge">Intermediate</span></div>
+                    <div class="skill-item"><span class="skill-name">PostgreSQL / SQLite</span><span class="skill-badge">Strong</span></div>
+                    <div class="skill-item"><span class="skill-name">JPA / Hibernate</span><span class="skill-badge">Strong</span></div>
+                    <div class="skill-item"><span class="skill-name">Prisma ORM</span><span class="skill-badge">Strong</span></div>
+                </div>
+            </div>
+
+            <!-- Category 3: System Concepts -->
+            <div class="glass-panel skills-category">
+                <h3>System & Systems</h3>
+                <div class="skills-list">
+                    <div class="skill-item"><span class="skill-name">Concurrency & Locks</span><span class="skill-badge">Strong</span></div>
+                    <div class="skill-item"><span class="skill-name">Redis Caching</span><span class="skill-badge">Strong</span></div>
+                    <div class="skill-item"><span class="skill-name">WebSockets</span><span class="skill-badge">Strong</span></div>
+                    <div class="skill-item"><span class="skill-name">Docker / Git</span><span class="skill-badge">Strong</span></div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+        <div class="section-header">
+            <h2>Experience Spotlight</h2>
+            <p>Industry internship experience in software development.</p>
+        </div>
+        <div class="glass-panel exp-card">
+            <div class="exp-header">
+                <div class="exp-title-group">
+                    <h3>Software Engineering Intern</h3>
+                    <div class="exp-company">Vevion Technology</div>
+                </div>
+                <div class="exp-date">Internship</div>
+            </div>
+            <ul class="exp-highlights">
+                <li>
+                    <strong>Phishing Simulator Development:</strong> Developed and tested a secure phishing simulation engine inside local test structures to evaluate network and employee awareness vulnerabilities.
+                </li>
+                <li>
+                    <strong>Backend Pipelines:</strong> Crafted automated data loggers to capture custom interaction metrics and write real-time simulation metadata safely to local database systems.
+                </li>
+                <li>
+                    <strong>Team Collaboration:</strong> Participated in sprint alignments, utilized Git for secure code version control, and collaborated on systems architectural review.
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Contact & Footer -->
+    <footer id="contact">
+        <div class="footer-content">
+            <h2>Let's Build Something Great</h2>
+            <p>I am actively looking for SDE-1 / Software Developer / Associate Backend Engineer roles in Bangalore or remote opportunities. Let's connect!</p>
+            <a href="mailto:varunv2026@gmail.com" class="btn btn-primary" style="display: inline-block; margin-bottom: 1.5rem;">Email Me Directly</a>
+            <div style="font-family: 'JetBrains Mono', monospace; font-size: 1.05rem; color: var(--accent-cyan); margin-top: 0.5rem;">
+                ✉️ varunv2026@gmail.com
+            </div>
+        </div>
+        <div class="social-links">
+            <a href="https://github.com/VarunV2352004" target="_blank" class="social-link">GitHub</a>
+            <a href="https://linkedin.com/in/varun-v-414381267" target="_blank" class="social-link">LinkedIn</a>
+        </div>
+        <div class="copyright">&copy; 2026 Varun V. All rights reserved. Built with premium code.</div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
